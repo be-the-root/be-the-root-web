@@ -1,0 +1,74 @@
+html,body{ 
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    min-height:100vh;
+    background:linear-gradient(135deg,#000000 0%,#281a36 50%,#17085a 100%);
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+
+.main-name{
+    color: white;
+    margin-top: 20px;
+    font-size: 30px;
+    
+    /*for animation */
+    display: inline-block;
+    padding-bottom: 4px;
+    position: relative;
+
+
+}
+.main-name::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: bottom left;
+    transition:transform 0.3s ease-out;
+
+}
+.main-name:hover::after{
+    transform: scaleX(1);
+}
+.logo img {
+    border-radius:50%;
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), 15);
+    border: 4px solid rgb(4, 214, 22);
+    padding: 5px;
+
+
+
+}
+.about-me h1{
+    width: 500px;
+    color: white;
+    font-size: 30px;
+    background:linear-gradient(135deg,#000000 0%,#281a36 50%,#17085a 100%);
+     border-color: aliceblue;
+     border-radius: 20px;
+     border: 2px solid;
+     padding: 8px 16px;
+     align-content: center;
+
+    
+
+}
+.about-me p{
+    color: white;
+    margin: 20px
+
+}
