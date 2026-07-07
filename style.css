@@ -72,3 +72,52 @@ html,body{
     margin: 20px
 
 }
+.my-aim h1{
+    width: 500px;
+    color: white;
+    font-size: 30px;
+    background:linear-gradient(135deg,#000000 0%,#281a36 50%,#17085a 100%);
+     border-color: aliceblue;
+     border-radius: 20px;
+     border: 2px solid;
+     padding: 8px 16px;
+     align-content: center;
+
+
+}
+.my-aim p{
+    color: white;
+    margin: 20px;
+}
+.skills h1{
+    width: 500px;
+    color: white;
+    font-size: 30px;
+    background:linear-gradient(135deg,#000000 0%,#281a36 50%,#17085a 100%);
+     border-color: aliceblue;
+     border-radius: 20px;
+     border: 2px solid;
+     padding: 8px 16px;
+     align-content: center;
+
+}
+.skills p{
+    color: white;
+    margin: 20px;
+}
+.contact-me h1{
+    
+    width: 500px;
+    color: white;
+    font-size: 30px;
+    background:linear-gradient(135deg,#000000 0%,#281a36 50%,#17085a 100%);
+     border-color: aliceblue;
+     border-radius: 20px;
+     border: 2px solid;
+     padding: 8px 16px;
+     align-content: center;
+}
+.contact-me p{
+    color: white;
+    margin: 20px;
+}
